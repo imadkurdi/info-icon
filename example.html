@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>info-icon example</title>
+   
+   <style>
+      body {
+         font-size: 120%;
+      }
+
+      .css::part(container) {
+         background-color: aquamarine;
+         color: brown;
+         border: none;
+      }
+   </style>
+
+   <script type="module" src="info-icon.js"></script>
+   <script type="module">
+      const elem = document.querySelector("#js");
+      elem.bgColor = "#777";
+      elem.color = "blueviolet";
+   </script>
+</head>
+
+<body>
+   <p><info-icon></info-icon> This <em><b>"info-icon"</b></em> has default styling.</p>
+   <p><info-icon color="blue" bg-color="blue"></info-icon> This <em><b>"info-icon"</b></em> is styled using <code><em>bg-color</em></code> and <code><em>color</em></code> attributes.</p>
+   <p><info-icon id="js"></info-icon> This <em><b>"info-icon"</b></em> is styled in JavaScript using <code><em>bgColor</em></code> and <code><em>color</em></code> properties.</p>
+   <p><info-icon class="css"></info-icon> This <em><b>"info-icon"</b></em> is styled in CSS using <code><em>::container</em></code> part.</p>
+</body>
+</html>
