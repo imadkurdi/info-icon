@@ -1,0 +1,36 @@
+{
+  "name": "@imadkurdi/info-icon",
+  "version": "1.0.0",
+  "description": "This is an info-icon component. A standard custom web component written in pure vanilla JS, so it could be used in any framework.",
+  "main": "info-icon.js",
+  "keywords": [
+    "info-icon",
+    "icon-info",
+    "info icon",
+    "icon info",
+    "information-icon",
+    "icon-information",
+    "information icon",
+    "icon information",
+    "info",
+    "information",
+    "icon",
+    "shortcut",
+    "ui",
+    "browser",
+    "component",
+    "web component",
+    "custom element",
+    "vanilla js"
+  ],
+  "author": "Imad Kurdi",
+  "license": "MIT",
+  "homepage": "https://github.com/imadkurdi/info-icon#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imadkurdi/info-icon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imadkurdi/info-icon/issues"
+  }
+}
